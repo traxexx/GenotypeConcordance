@@ -7,13 +7,13 @@ Usage:
 
 (GT concordance. Output one line per pair. Can be re-ordered to 3x3 table)
 
-GTpairConcordance-new.pl <inVcf> <Pair.list> > GTconcordance.out
+GTpairConcordance-new.pl inVcf Pair.list > GTconcordance.out
 
 
 
 (GL concordance, estimated with Bayes factor. Output one line per site)
 
-PairGLconcordance.pl <inVcf> <Pair.list> <Exclude.list> > GLconcordance.out
+PairGLconcordance.pl inVcf Pair.list Exclude.list > GLconcordance.out
 
 
 Pair list format (delimited by tab):
